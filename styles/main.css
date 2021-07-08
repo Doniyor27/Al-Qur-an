@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Amiri';
+  background-image: url('../images/5110786.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.logotip {
+  width: 65px;
+}
+
+.header {
+  padding: 20px;
+  background-color: #8561288c;
+  backdrop-filter: blur(5px);
+  z-index: 3;
+  border-bottom: 1px solid #f3a722;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.result {
+  text-align: right;
+  list-style-type: none;
+  line-height: 60px;
+  font-size: 30px;
+}
+
+.logo_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_text {
+  font-family: 'Aclonica', cursive;
+  font-size: 30px;
+  color: rgb(228, 227, 158);
+  margin-left: 20px;
+}
+
+.search {
+  font-family: 'Aclonica', cursive;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  width: 300px;
+  background-color: rgba(228, 227, 158, 0.5);
+  border: 1px solid #f3a722;
+}
+
+.search::placeholder {
+  font-family: 'Aclonica', cursive;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.609);
+}
+
+.icon {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.icon2 {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.input_wrap {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes lampone {
+    0% {
+      -webkit-transform: rotate(
+    2deg
+    );
+        transform: rotate(
+    2deg
+    );
+  }
+
+  100% {
+    -webkit-transform: rotate(
+  -2deg
+  );
+    transform: rotate(
+  -2deg
+  );
+  }
+}
+
+@keyframes lampone1 {
+  0% {
+    -webkit-transform: rotate(
+  5deg
+  );
+      transform: rotate(
+  5deg
+  );
+}
+
+100% {
+  -webkit-transform: rotate(
+-5deg
+);
+  transform: rotate(
+-5deg
+);
+}
+}
+
+@keyframes lampone3 {
+  0% {
+    -webkit-transform: rotate(
+  1deg
+  );
+      transform: rotate(
+  1deg
+  );
+}
+
+100% {
+  -webkit-transform: rotate(
+-1deg
+);
+  transform: rotate(
+-1deg
+);
+}
+}
+
+.lamp {
+  top: 0;
+  width: 50px;
+  height: 500px;
+  position: fixed;
+}
+
+.lamp1 {
+  left: 50px;
+    -webkit-animation: lampone 1s ease-in-out .5s infinite alternate;
+    animation: lampone 1s ease-in-out .5s infinite alternate;
+}
+
+.lamp2 {
+  height: 476.25px;
+  right: 50px;
+    -webkit-animation: lampone 1s ease-in-out .1s infinite alternate;
+    animation: lampone 1s ease-in-out .1s infinite alternate;
+}
+
+.lamp3 {
+  top: 50px;
+  width: 30px;
+  height: 276.25px;
+  left: 350px;
+    -webkit-animation: lampone1 1s ease-in-out .2s infinite alternate;
+    animation: lampone1 1s ease-in-out .2s infinite alternate;
+}
+
+.lamp4 {
+  top: -100px;
+  width: 64px;
+  height: 698px;
+  right: 190px;
+  -webkit-animation: lampone 1.5s ease-in-out .3s infinite alternate;
+  animation: lampone 1.5s ease-in-out .3s infinite alternate;
+}
+
+.lamp5 {
+  top: -100px;
+    width: 80px;
+    height: 800px;
+  left: 190px;
+    -webkit-animation: lampone 1.5s ease-in-out .3s infinite alternate;
+    animation: lampone 1.5s ease-in-out .3s infinite alternate;
+}
+
+.lamp6 {
+  top: -100px;
+    width: 100px;
+    height: 900px;
+  left: 690px;
+    -webkit-animation: lampone3 1s ease-in-out .8s infinite alternate;
+    animation: lampone3 1s ease-in-out .8s infinite alternate;
+}
+
+.lamp7 {
+  top: -100px;
+    width: 60px;
+    height: 700px;
+  left: 890px;
+    -webkit-animation: lampone 1s ease-in-out .5s infinite alternate;
+    animation: lampone 1s ease-in-out .5s infinite alternate;
+}
+
+.lamp8 {
+  top: -100px;
+    width: 50px;
+    height: 510px;
+  right: 290px;
+    -webkit-animation: lampone 1s ease-in-out .5s infinite alternate;
+    animation: lampone 1s ease-in-out .5s infinite alternate;
+}
+
+.main {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: #8561288c;
+  backdrop-filter: blur(8px);
+  z-index: 2;
+  margin-top: 185px;
+  padding: 20px;
+  border: 1px solid #f3a722;
+  color: white;
+  overflow-y: scroll;
+  height: 680px;
+  position: relative;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  font-family: 'Aclonica', cursive;
+  font-size: 30px;
+  color: rgb(228, 227, 158);
+  text-align: center;
+}
+
+li {
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+li:hover {
+  color: rgb(141, 141, 141);
+}
+
+li:active {
+  font-size: 31px;
+}
