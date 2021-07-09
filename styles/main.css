@@ -40,8 +40,6 @@ body {
 .result {
   text-align: right;
   list-style-type: none;
-  line-height: 60px;
-  font-size: 30px;
 }
 
 .logo_wrap {
@@ -64,7 +62,6 @@ body {
 
 .search {
   font-family: 'Aclonica', cursive;
-  border: none;
   outline: none;
   padding: 10px 5px;
   width: 300px;
@@ -249,10 +246,11 @@ body {
 }
 
 .title {
-  font-family: 'Aclonica', cursive;
   font-size: 30px;
+  font-family: 'Aclonica', cursive;
   color: rgb(228, 227, 158);
   text-align: center;
+  margin-top: 21px;
 }
 
 li {
@@ -264,6 +262,59 @@ li:hover {
   color: rgb(141, 141, 141);
 }
 
-li:active {
+.audio_wrapper {
+  display: none;
+}
+
+h2 {
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 30px;
+  padding: 10px;
+}
+
+h4 {
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 20px;
+}
+
+h2:hover {
+  color: rgb(141, 141, 141);
+}
+
+h2:active {
   font-size: 31px;
+}
+
+h4:hover {
+  color: rgb(141, 141, 141);
+}
+
+.active {
+  color: rgb(141, 141, 141);
+}
+
+#readAll {
+  text-decoration: none;
+  font-family: 'Aclonica', cursive;
+  color: rgb(228, 227, 158);
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 20px;
+  color: white;
+  transition: all ease 0.3s;
+  display: inline-block;
+  width: 221px;
+  margin-left: 339px;
+  padding: 20px;
+}
+
+#readAll:hover {
+  opacity: 0.8;
+}
+
+#readAll:active {
+  opacity: 0.5;
+  border: 1px solid rgb(121, 121, 121);
 }
